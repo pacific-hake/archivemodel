@@ -1,0 +1,34 @@
+Package: hake-archivemodel
+Title: Archive the assessment model for Pacific Hake
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = c("Kelli", "F."),
+           family = "Johnson",
+           role = c("aut", "cre"),
+           email = "kelli.johnson@noaa.gov",
+           comment = c(ORCID = "0000-0002-5149-451X")
+    ),
+    person(given = c("Aaron", "M."),
+           family = "Berger",
+           role = c("aut"),
+           email = "aaron.berger@noaa.gov",
+           comment = c(ORCID = "0000-0002-1408-7122")
+    )
+    )
+Description: Archive the assessment model files and the document for
+    Pacific Hake as needed by the Northwest Fisheries Science Center.
+    The information will be stored on \\nwcfile\fram\Assessments\\Archives.
+    This repository stores code to change and move files.
+License:  Not subject to copyright + file LICENSE
+Encoding: UTF-8
+LaxyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
+Imports:
+    dplyr,
+    glue,
+    magrittr,
+    r4ss
+Remotes:
+    github::r4ss/r4ss
